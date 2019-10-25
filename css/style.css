@@ -1,0 +1,85 @@
+body {
+    background: rgb(140, 114, 114);
+} 
+
+main {
+    margin: auto;
+    max-width: 32rem;
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 6vh;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(140, 114, 114);
+}
+
+.controls {
+    text-align: center;
+}
+
+.square {
+    display: inline-block;
+    width: 15vh;
+    height: 15vh;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 15vh;
+    color:black;
+}
+
+
+
+
+.left {
+    border-right: 1px solid black;
+}
+
+.right {
+    border-left: 7px solid black;
+}
+
+.top {
+    border-bottom: 1px solid black;
+}
+
+.bottom {
+    border-top: 7px solid black;
+}
+
+.v-middle {
+    border-right: 1px solid black;
+    border-left: 7px solid black;
+}
+
+.h-middle {
+    border-top: 7px solid black;
+    border-bottom: 1px solid black;
+}
+
+button{
+    min-height: 48px;
+    min-width: 48px;
+    color: black;
+    background-color: green;
+    font-weight: bold;
+}
+
+
+    
+footer {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
