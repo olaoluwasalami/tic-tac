@@ -1,6 +1,6 @@
 body {
     background: rgb(140, 114, 114);
-} 
+}
 
 main {
     margin: auto;
@@ -33,10 +33,13 @@ h2 {
     margin: 0;
     padding: 0;
     line-height: 15vh;
-    color:black;
+    color: black;
 }
 
+.square:hover{
+    background-color: lightgrey;
 
+}
 
 
 .left {
@@ -65,7 +68,7 @@ h2 {
     border-bottom: 1px solid black;
 }
 
-button{
+button {
     min-height: 48px;
     min-width: 48px;
     color: black;
@@ -74,12 +77,12 @@ button{
 }
 
 
-    
+
 footer {
     margin: 0;
     padding: 0;
     text-align: center;
     font-size: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+
 }
