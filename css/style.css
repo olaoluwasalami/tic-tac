@@ -34,6 +34,8 @@ h2 {
     padding: 0;
     line-height: 15vh;
     color: black;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .square:hover{
@@ -86,3 +88,4 @@ footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+
